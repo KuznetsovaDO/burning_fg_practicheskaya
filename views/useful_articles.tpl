@@ -159,7 +159,7 @@
                     </div>
                     <div class="col-xl-6">
                         <div class="newsform">
-                            <form action="#">
+                            <form action="/add_article">
                                 <input type="text" placeholder="Title of the article" name="title">
                                 <input type="text" placeholder="Link to the article" name="link">
                                 <input type="text" placeholder="Your name" name = "name">

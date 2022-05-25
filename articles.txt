@@ -1,2 +1,3 @@
 Artccle1|https://pythonru.com/osnovy/fajly-v-python-vvod-vyvod|login|23.09.1090
 artccle2|https://pythonru.com/osnovy/fajly-v-python-vvod-vyvod|login|23.09.1090
+titlwe|https://www.booking.com/dealspage.it.html?aid=1535069&&label=ruru-edge-ntp-topsites-curate-ana|name|+79828177124
