@@ -129,15 +129,18 @@
                     </div>
                     %f = open('articles.txt', 'r') 
                     %articles = f.readlines()
-                    %for article in articles:
-                        %article = article.split("|")
+                    %i = len(articles)-1
+                    %while i>=0:
+                        %article = articles[i].split("|")
                         <div class="single_blog">
                             <div class="blog_meta">
                                 <h3><a href="{{article[1]}}">{{article[0]}}</a></h3>
                                 <p><a>{{article[2]}} I {{article[3]}}</a></p>
                             </div>
                         </div>
+                        %i-=1
                     %end
+                    %f.close()
                 </div>
             </div>
         </div>
