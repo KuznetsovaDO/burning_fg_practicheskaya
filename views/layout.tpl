@@ -26,7 +26,8 @@
                     <li><a href="/home">I'm a blogger</a></li>
                     <li><a href="/im_phot">I'm a photographer</a></li>
                     <li><a href="/contact">I'm a model</a></li>
-                     <li><a href="/prices">Prices</a></li>
+                    <li><a href="/prices">Prices</a></li>
+                    <li><a href="/useful_articles">Useful articles</a></li>
                 </ul>
             </div>
         </div>

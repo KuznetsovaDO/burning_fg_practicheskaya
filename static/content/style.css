@@ -1,0 +1,888 @@
+@import url("https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600,600i,700,700i|Roboto:300,300i,400,500,500i,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,900|Roboto:300,300i,400,400i,500,700,700i&display=swap");
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.img {
+  max-width: 100%;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+a,
+.button {
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+
+a:focus,
+.button:focus, button:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+
+a:focus {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* line 30, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/theme-default.scss */
+a:focus,
+a:hover,
+.portfolio-cat a:hover,
+.footer -menu li a:hover {
+  text-decoration: none;
+  color: #000;
+}
+
+a,
+button {
+  color: #131313;
+  outline: medium none;
+}
+
+/* line 42, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/theme-default.scss */
+h1, h2, h3, h4, h5 {
+  font-family: 'Crimson Text', serif;
+  color: #131313;
+}
+
+/* line 46, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/theme-default.scss */
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  color: inherit;
+}
+
+/* line 55, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/theme-default.scss */
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* line 59, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/theme-default.scss */
+li {
+  list-style: none;
+}
+
+/* line 62, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/theme-default.scss */
+p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 26px;
+  color: #808080;
+  margin-bottom: 13px;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* line 71, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/theme-default.scss */
+label {
+  color: #7e7e7e;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+
+
+/* line 82, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/theme-default.scss */
+::-moz-selection {
+  background: #444;
+  color: #fff;
+  text-shadow: none;
+}
+
+/* line 87, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/theme-default.scss */
+::selection {
+  background: #444;
+  color: #fff;
+  text-shadow: none;
+}
+
+/* line 92, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/theme-default.scss */
+*::-webkit-input-placeholder {
+  color: #cccccc;
+  font-size: 14px;
+  opacity: 1;
+}
+
+*:-ms-input-placeholder {
+  color: #cccccc;
+  font-size: 14px;
+  opacity: 1;
+}
+
+/* line 102, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/theme-default.scss */
+*::-ms-input-placeholder {
+  color: #cccccc;
+  font-size: 14px;
+  opacity: 1;
+}
+
+/* line 107, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/theme-default.scss */
+*::placeholder {
+  color: #cccccc;
+  font-size: 14px;
+  opacity: 1;
+}
+
+/* line 113, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/theme-default.scss */
+h3 {
+  font-size: 24px;
+}
+
+/* line 117, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/theme-default.scss */
+.mb-65 {
+  margin-bottom: 67px;
+}
+
+/* line 121, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/theme-default.scss */
+.black-bg {
+  background: #020c26 !important;
+}
+
+/* line 125, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/theme-default.scss */
+.white-bg {
+  background: #ffffff;
+}
+
+/* line 128, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/theme-default.scss */
+.gray-bg {
+  background: #f5f5f5;
+}
+
+/* line 133, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/theme-default.scss */
+.bg-img-1 {
+  background-image: url(../img/slider/slider-img-1.jpg);
+}
+
+/* line 136, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/theme-default.scss */
+.bg-img-2 {
+  background-image: url(../img/background-img/bg-img-2.jpg);
+}
+
+/* line 139, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/theme-default.scss */
+.cta-bg-1 {
+  background-image: url(../img/background-img/bg-img-3.jpg);
+}
+
+/* line 144, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/theme-default.scss */
+.overlay {
+  position: relative;
+  z-index: 0;
+}
+
+/* line 148, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/theme-default.scss */
+.overlay::before {
+  position: absolute;
+  content: "";
+  background-color: #020c26;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.851;
+}
+
+/* line 160, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/theme-default.scss */
+.overlay2 {
+  position: relative;
+  z-index: 0;
+}
+
+/* line 164, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/theme-default.scss */
+.overlay2::before {
+  position: absolute;
+  content: "";
+  background-color: #131313;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.2;
+}
+
+/* line 176, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/theme-default.scss */
+.section-padding {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+/* line 180, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/theme-default.scss */
+.pt-120 {
+  padding-top: 120px;
+}
+
+/* line 1, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/_btn.scss */
+.boxed-btn {
+  background: #fff;
+  color: #131313;
+  display: inline-block;
+  padding: 18px 55px;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  border: 0;
+  border: 1px solid #1F1F1F;
+  text-align: center;
+  color: #131313 !important;
+  text-transform: capitalize;
+}
+
+/* line 16, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/_btn.scss */
+.boxed-btn:hover {
+  background: #1F1F1F;
+  color: #fff !important;
+  border: 1px solid #1F1F1F;
+}
+
+/* line 21, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/_btn.scss */
+.boxed-btn:focus {
+  outline: none;
+}
+
+/* line 24, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/_btn.scss */
+.boxed-btn.large-width {
+  width: 220px;
+}
+
+/* line 28, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/_btn.scss */
+.boxed-btn2 {
+  background: transparent;
+  color: #fff;
+  display: inline-block;
+  padding: 18px 24px;
+  font-family: "Crimson Text", serif;
+  font-size: 14px;
+  font-weight: 400;
+  border: 0;
+  border: 1px solid #fff;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+/* line 40, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/_btn.scss */
+.boxed-btn2:hover {
+  background: #fff;
+  color: #131313 !important;
+}
+
+
+.section_title h3 {
+  font-size: 38px;
+  font-weight: 400;
+  font-family: "Crimson Text", serif;
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+}
+
+@media (max-width: 767px) {
+  /* line 2, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/_section_title.scss */
+  .section_title h3 {
+    font-size: 30px;
+  }
+}
+
+/* line 12, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/_section_title.scss */
+.section_title h3::before {
+  position: absolute;
+  content: "";
+  width: 20px;
+  background: #F4A919;
+  width: 60px;
+  height: 3px;
+  right: 0;
+  top: 50%;
+  margin-top: 3.5px;
+  right: -70px;
+}
+
+
+
+
+
+
+
+/* line 267, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/_header.scss */
+#search_input_box .form-control {
+  background: transparent;
+  border: 0;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 15px;
+  padding: 0;
+  height: 50px;
+}
+
+/* line 277, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/_header.scss */
+#search_input_box .btn {
+  width: 0;
+  height: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* line 284, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/_header.scss */
+#search_input_box .ti-close {
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 10px;
+  padding-right: 0;
+  font-size: 15px;
+}
+
+/* line 294, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/_header.scss */
+.search-inner {
+  padding: 5px 5px;
+}
+
+
+
+
+
+/* line 324, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/_header.scss */
+.social-link {
+  position: relative;
+  z-index: 9;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 324, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/_header.scss */
+  .social-link {
+    position: static;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 324, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/_header.scss */
+  .social-link {
+    position: static;
+  }
+}
+
+
+
+
+/* line 42, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/_welcome_area.scss */
+.photography_bg_1 {
+  background-image: url(../img/photography/1.jpg);
+}
+
+/* line 45, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/_welcome_area.scss */
+.photography_bg_2 {
+  background-image: url(../img/photography/2.jpg);
+}
+
+/* line 49, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/_welcome_area.scss */
+.photographi_area .single_photography {
+  height: 380px;
+  position: relative;
+}
+
+@media (max-width: 767px) {
+  /* line 49, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/_welcome_area.scss */
+  .photographi_area .single_photography {
+    height: 300px;
+    margin-bottom: 30px;
+  }
+}
+
+/* line 56, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/_welcome_area.scss */
+.photographi_area .single_photography .info {
+  position: absolute;
+  height: 100%;
+  left: 0;
+  right: 0;
+  z-index: 0;
+}
+
+/* line 62, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/_welcome_area.scss */
+.photographi_area .single_photography .info .info_inner {
+  padding: 45px 45px 40px 45px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+  /* line 62, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/_welcome_area.scss */
+  .photographi_area .single_photography .info .info_inner {
+    padding: 20px;
+  }
+}
+
+/* line 72, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/_welcome_area.scss */
+.photographi_area .single_photography .info .info_inner h3 {
+  font-size: 34px;
+  color: #fff;
+  font-weight: 400;
+  line-height: 40px;
+  font-family: "Crimson Text", serif;
+  margin-bottom: 2px;
+}
+
+@media (max-width: 767px) {
+  /* line 72, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/_welcome_area.scss */
+  .photographi_area .single_photography .info .info_inner h3 {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 72, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/_welcome_area.scss */
+  .photographi_area .single_photography .info .info_inner h3 {
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 89, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/_welcome_area.scss */
+  .photographi_area .single_photography .info .info_inner h3 br {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 89, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/_welcome_area.scss */
+  .photographi_area .single_photography .info .info_inner h3 br {
+    display: none;
+  }
+}
+
+/* line 97, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/_welcome_area.scss */
+.photographi_area .single_photography .info .info_inner h3 a {
+  color: #fff;
+  font-weight: 400;
+}
+
+/* line 103, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/_welcome_area.scss */
+.photographi_area .single_photography .info .info_inner .date_catagory span {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #fff;
+  font-size: 14px;
+}
+
+/* line 108, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/_welcome_area.scss */
+.photographi_area .single_photography .info .info_inner .date_catagory span.catagory {
+  background: transparent;
+  padding: 3px 20px;
+  border-radius: 30px;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  text-transform: capitalize;
+}
+
+
+
+
+
+/* line 1, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/_recent_blog.scss */
+.most_recent_blog {
+  padding-bottom: 100px;
+}
+
+/* line 6, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/_recent_blog.scss */
+.most_recent_blog .btn_area {
+  margin-top: 30px;
+}
+
+/* line 9, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/_recent_blog.scss */
+.most_recent_blog .single_blog {
+  margin-bottom: 44px;
+}
+
+/* line 11, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/_recent_blog.scss */
+.most_recent_blog .single_blog .blog_thumb {
+  overflow: hidden;
+}
+
+/* line 13, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/_recent_blog.scss */
+.most_recent_blog .single_blog .blog_thumb a {
+  display: block;
+}
+
+
+.most_recent_blog .single_blog .blog_thumb a img {
+  width: 100%;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+
+.most_recent_blog .single_blog .blog_meta p {
+  margin-top: 22px;
+  margin-bottom: 3px;
+}
+
+
+.most_recent_blog .single_blog .blog_meta p a {
+  font-size: 14px;
+  color: #919191;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+}
+
+.most_recent_blog .single_blog .blog_meta h3 {
+  margin-bottom: 0;
+  font-size: 26px;
+  line-height: 32px;
+}
+
+
+
+.most_recent_blog .single_blog .blog_meta h3 a {
+  font-family: "Crimson Text", serif;
+  color: #1F1F1F;
+  text-transform: capitalize;
+}
+
+
+.most_recent_blog .single_blog .blog_meta h3 a:hover {
+  color: #F4A919;
+}
+
+@media (max-width: 767px) {
+
+  .most_recent_blog .single_blog .blog_meta h3 br {
+    display: none;
+  }
+}
+
+.most_recent_blog .single_blog:hover .blog_thumb img {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+@media (max-width: 767px) {
+  
+  .most_recent_blog .blog_right_side {
+    margin-top: 30px;
+  }
+}
+
+
+.most_recent_blog .blog_right_side .foollow_links {
+  margin-bottom: 50px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+ 
+  .most_recent_blog .blog_right_side .foollow_links ul {
+    display: block !important;
+  }
+}
+
+
+.most_recent_blog .blog_right_side .foollow_links ul li {
+  display: inline-block;
+}
+
+
+
+.most_recent_blog .blog_right_side .foollow_links ul li a {
+  text-align: center;
+  background: #3B5998;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 16px 29px;
+  border-radius: 10px;
+}
+
+@media (max-width: 767px) {
+
+  .most_recent_blog .blog_right_side .foollow_links ul li a {
+    padding: 16px 18px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .most_recent_blog .blog_right_side .foollow_links ul li a {
+    width: 100%;
+    margin-top: 20px;
+    display: block;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  
+  .most_recent_blog .blog_right_side .foollow_links ul li a {
+    padding: 16px 20px;
+  }
+}
+
+
+.most_recent_blog .blog_right_side .foollow_links ul li a i {
+  font-size: 20px;
+  color: #fff;
+}
+
+
+.most_recent_blog .blog_right_side .foollow_links ul li a h2 {
+  font-size: 24px;
+  font-weight: 400;
+  color: #fff;
+  font-family: "Crimson Text", serif;
+}
+
+
+.most_recent_blog .blog_right_side .foollow_links ul li a p {
+  font-size: 12px;
+  margin-bottom: 0;
+  color: #E2E2E2;
+}
+
+
+.most_recent_blog .blog_right_side .foollow_links ul li a.insta {
+  background: #517FA4;
+}
+
+
+.most_recent_blog .blog_right_side .foollow_links ul li a.twitter {
+  background: #55ACEE;
+}
+
+
+.most_recent_blog .add_here {
+  margin-bottom: 38px;
+}
+
+@media (max-width: 767px) {
+  
+  .most_recent_blog .add_here img {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  
+  .most_recent_blog .add_here img {
+    width: 100%;
+  }
+}
+
+.most_recent_blog .tags ul li {
+  display: inline-block;
+  margin-right: 14px;
+  margin-bottom: 18px;
+}
+
+
+.most_recent_blog .tags ul li a {
+  padding: 11px 25px;
+  border: 1px solid #E2E2E2;
+  display: block;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  color: #919191;
+  text-transform: capitalize;
+}
+
+@media (max-width: 767px) {
+  
+  .most_recent_blog .tags ul li a {
+    padding: 10px;
+  }
+}
+
+
+.most_recent_blog .tags ul li a:hover {
+  background: #F4A919;
+  color: #fff;
+  border: 1px solid #F4A919;
+}
+
+
+.gallery_bg_1 {
+  background-image: url(../img/photo_gallery/1.jpg);
+}
+
+
+.gallery_bg_2 {
+  background-image: url(../img/photo_gallery/2.jpg);
+}
+
+
+.subscribe_newsletter {
+    padding-bottom: 100px;
+}
+
+
+
+
+.subscribe_newsletter .black_bg {
+    background: #000;
+    padding: 68px 68px;
+}
+
+@media (max-width: 767px) {
+    
+    .subscribe_newsletter .black_bg {
+        padding: 20px;
+    }
+}
+
+
+.subscribe_newsletter .newsletter_text h3 {
+    color: #fff;
+    font-family: "Crimson Text", serif;
+    font-weight: 600;
+    font-weight: 400;
+    font-size: 38px;
+    margin-bottom: 0;
+}
+
+@media (max-width: 767px) {
+   
+    .subscribe_newsletter .newsletter_text h3 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+}
+
+
+.subscribe_newsletter .newsletter_text p {
+    margin-bottom: 0;
+    font-size: 18px;
+    color: #E2E2E2;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+
+@media (max-width: 767px) {
+    
+    .subscribe_newsletter .newsletter_text p {
+        margin-bottom: 15px;
+        font-size: 14px;
+    }
+}
+
+
+
+.subscribe_newsletter .newsform {
+    position: relative;
+}
+
+    .subscribe_newsletter .newsform input {
+        width: 100%;
+        height: 60px;
+        background: transparent;
+        padding-left: 20px;
+        font-size: 16px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        border: 1px solid #707070;
+        color: #fff;
+        margin: 5px;
+    }
+
+      
+  
+
+    .subscribe_newsletter .newsform button {
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100%;
+        background: #F4A919;
+        padding: 0 40px;
+        font-weight: 400;
+        font-family: "Roboto", sans-serif;
+        font-size: 14px;
+        border: none;
+        cursor: pointer;
+        text-transform: capitalize;
+        -webkit-transition: 0.3s;
+        -moz-transition: 0.3s;
+        -o-transition: 0.3s;
+        transition: 0.3s;
+        color: #fff;
+    }
+
+
+.subscribe_newsletter .newsform button:hover {
+    color: #000;
+    background: #ffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

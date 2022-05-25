@@ -1,0 +1,2 @@
+Artccle1|https://pythonru.com/osnovy/fajly-v-python-vvod-vyvod|login|23.09.1090
+artccle2|https://pythonru.com/osnovy/fajly-v-python-vvod-vyvod|login|23.09.1090
