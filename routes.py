@@ -42,3 +42,33 @@ def about():
         message='Your application description page.',
         year=datetime.now().year
     )
+
+@route('/reviews')
+@view('reviews')
+def reviews():
+    
+    return dict(
+        title='Reviews',
+        message='Your application description page.',
+        year=datetime.now().year
+    )
+
+@route('/completed_orders')
+@view('completed_orders')
+def about():
+    
+    return dict(
+        title='Completed orders',
+        message='Your application description page.',
+        year=datetime.now().year
+    )
+
+@route('/partner_companies')
+@view('partner_companies')
+def about():
+    
+    return dict(
+        title='Partner companies',
+        message='Your application description page.',
+        year=datetime.now().year
+    )
