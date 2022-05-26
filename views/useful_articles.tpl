@@ -15,7 +15,7 @@
             
                 <div>
                     <div class="section_title">
-                        <h3>Most Recent</h3>
+                        <h3 style = "margin: 5%">Useful Articles</h3>
                     </div>
                 </div>
                 
@@ -28,7 +28,7 @@
                                     </a>
                                 </div>
                                 <div class="blog_meta">
-                                    <p><a>Photography I 24 May 2019</a></p>
+                                    <p><a>Photography I 24 May 2022</a></p>
                                     <h3><a href="http://www.onestudioreading.com/editorial/the-desolate-beauty-of-greenland/">
                                             The Desolate Beauty of <br>Greenland</a></h3>
                                 </div>
@@ -37,13 +37,13 @@
                         <div class="col-xl-6 col-md-6">
                             <div class="single_blog">
                                 <div class="blog_thumb">
-                                    <a href="#">
+                                    <a href="https://richardbernabe.com/lost-four-letter-word/">
                                         <img src="static/img/most_recent/1.jpg" >
                                     </a>
                                 </div>
                                 <div class="blog_meta">
-                                    <p><a href="#">Photography I 24 May 2019</a></p>
-                                    <h3><a href="#">
+                                    <p><a>Photography I 24 May 2022</a></p>
+                                    <h3><a href="https://richardbernabe.com/lost-four-letter-word/">
                                             Lost Is Just a Four Letter <br> Word </a></h3>
                                 </div>
                             </div>
@@ -51,15 +51,14 @@
                         <div class="col-xl-6 col-md-6">
                             <div class="single_blog">
                                 <div class="blog_thumb">
-                                    <a href="#">
+                                    <a href="https://fixthephoto.com/breakthrough-photography.html">
                                         <img src="static/img/most_recent/3.jpg" alt="">
                                     </a>
                                 </div>
                                 <div class="blog_meta">
-                                    <p><a href="#">Photography I 24 May 2019</a></p>
-                                    <h3><a href="#">
-                                            Break through Photo-graphy <br>
-                                            Filters for Travel Shot
+                                    <p><a>Photography I 24 May 2022</a></p>
+                                    <h3><a href="https://fixthephoto.com/breakthrough-photography.html">
+                                            Break through Photo-graphy <br> Filters for Travel Shot
                                         </a></h3>
                                 </div>
                             </div>
@@ -67,13 +66,13 @@
                         <div class="col-xl-6 col-md-6">
                             <div class="single_blog">
                                 <div class="blog_thumb">
-                                    <a href="#">
+                                    <a href="https://richardbernabe.com/think-tank-photo-protection-products/">
                                         <img src="static/img/most_recent/4.jpg" alt="">
                                     </a>
                                 </div>
                                 <div class="blog_meta">
-                                    <p><a href="#">Photography I 24 May 2019</a></p>
-                                    <h3><a href="#">
+                                    <p><a>Photography I 24 May 2022</a></p>
+                                    <h3><a href="https://richardbernabe.com/think-tank-photo-protection-products/">
                                             Tank Releases New Photo <br>
                                             Protection Concepts
                                         </a></h3>
@@ -83,13 +82,13 @@
                         <div class="col-xl-6 col-md-6">
                             <div class="single_blog">
                                 <div class="blog_thumb">
-                                    <a href="#">
+                                    <a href="https://richardbernabe.com/greenland-desolate-beauty/">
                                         <img src="static/img/most_recent/5.jpg" alt="">
                                     </a>
                                 </div>
                                 <div class="blog_meta">
-                                    <p><a href="#">Photography I 24 May 2019</a></p>
-                                    <h3><a href="#">
+                                    <p><a>Photography I 24 May 2022</a></p>
+                                    <h3><a href="https://richardbernabe.com/greenland-desolate-beauty/">
                                             The Desolate Beauty of <br>
                                             Greenland
                                         </a></h3>
@@ -99,13 +98,13 @@
                         <div class="col-xl-6 col-md-6">
                             <div class="single_blog">
                                 <div class="blog_thumb">
-                                    <a href="#">
+                                    <a href="https://richardbernabe.com/greenland-desolate-beauty/">
                                         <img src="static/img/most_recent/6.jpg" alt="">
                                     </a>
                                 </div>
                                 <div class="blog_meta">
-                                    <p><a href="#">Photography I 24 May 2019</a></p>
-                                    <h3><a href="#">
+                                    <p><a>Photography I 24 May 2022</a></p>
+                                    <h3><a href="https://richardbernabe.com/greenland-desolate-beauty/">
                                             Lost Is Just a Four Letter <br> Word
                                         </a></h3>
                                 </div>
@@ -135,7 +134,7 @@
                         <div class="single_blog">
                             <div class="blog_meta">
                                 <h3><a href="{{article[1]}}">{{article[0]}}</a></h3>
-                                <p><a>{{article[2]}} I {{article[3]}}</a></p>
+                                <p><a>{{article[2]}} I {{article[3]}} </a></p>
                             </div>
                         </div>
                         %i-=1
@@ -157,7 +156,7 @@
                             <h3>
                                 Recommend an article
                             </h3>
-                            <p>Get updates to our newsletter and new articles</p>
+                            <p>{{error}}</p>
                         </div>
                     </div>
                     <div class="col-xl-6">

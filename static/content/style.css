@@ -36,7 +36,6 @@ a:focus {
   text-decoration: none;
 }
 
-/* line 30, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/theme-default.scss */
 a:focus,
 a:hover,
 .portfolio-cat a:hover,
@@ -51,13 +50,11 @@ button {
   outline: medium none;
 }
 
-/* line 42, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/theme-default.scss */
 h1, h2, h3, h4, h5 {
   font-family: 'Crimson Text', serif;
   color: #131313;
 }
 
-/* line 46, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/theme-default.scss */
 h1 a,
 h2 a,
 h3 a,
@@ -67,18 +64,16 @@ h6 a {
   color: inherit;
 }
 
-/* line 55, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/theme-default.scss */
+
 ul {
   margin: 0px;
   padding: 0px;
 }
 
-/* line 59, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/theme-default.scss */
 li {
   list-style: none;
 }
 
-/* line 62, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/theme-default.scss */
 p {
   font-size: 14px;
   font-weight: 300;
@@ -88,7 +83,7 @@ p {
   font-family: 'Roboto', sans-serif;
 }
 
-/* line 71, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/theme-default.scss */
+
 label {
   color: #7e7e7e;
   cursor: pointer;
@@ -97,22 +92,18 @@ label {
 }
 
 
-
-/* line 82, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/theme-default.scss */
 ::-moz-selection {
   background: #444;
   color: #fff;
   text-shadow: none;
 }
 
-/* line 87, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/theme-default.scss */
 ::selection {
   background: #444;
   color: #fff;
   text-shadow: none;
 }
 
-/* line 92, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/theme-default.scss */
 *::-webkit-input-placeholder {
   color: #cccccc;
   font-size: 14px;
@@ -125,67 +116,62 @@ label {
   opacity: 1;
 }
 
-/* line 102, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/theme-default.scss */
 *::-ms-input-placeholder {
   color: #cccccc;
   font-size: 14px;
   opacity: 1;
 }
 
-/* line 107, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/theme-default.scss */
 *::placeholder {
   color: #cccccc;
   font-size: 14px;
   opacity: 1;
 }
 
-/* line 113, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/theme-default.scss */
 h3 {
   font-size: 24px;
 }
 
-/* line 117, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/theme-default.scss */
 .mb-65 {
   margin-bottom: 67px;
 }
 
-/* line 121, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/theme-default.scss */
 .black-bg {
   background: #020c26 !important;
 }
 
-/* line 125, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/theme-default.scss */
+
 .white-bg {
   background: #ffffff;
 }
 
-/* line 128, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/theme-default.scss */
+
 .gray-bg {
   background: #f5f5f5;
 }
 
-/* line 133, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/theme-default.scss */
+
 .bg-img-1 {
   background-image: url(../img/slider/slider-img-1.jpg);
 }
 
-/* line 136, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/theme-default.scss */
+
 .bg-img-2 {
   background-image: url(../img/background-img/bg-img-2.jpg);
 }
 
-/* line 139, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/theme-default.scss */
+
 .cta-bg-1 {
   background-image: url(../img/background-img/bg-img-3.jpg);
 }
 
-/* line 144, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/theme-default.scss */
+
 .overlay {
   position: relative;
   z-index: 0;
 }
 
-/* line 148, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/theme-default.scss */
+
 .overlay::before {
   position: absolute;
   content: "";
@@ -198,13 +184,12 @@ h3 {
   opacity: 0.851;
 }
 
-/* line 160, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/theme-default.scss */
+
 .overlay2 {
   position: relative;
   z-index: 0;
 }
 
-/* line 164, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/theme-default.scss */
 .overlay2::before {
   position: absolute;
   content: "";
@@ -217,18 +202,17 @@ h3 {
   opacity: 0.2;
 }
 
-/* line 176, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/theme-default.scss */
+
 .section-padding {
   padding-top: 120px;
   padding-bottom: 120px;
 }
 
-/* line 180, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/theme-default.scss */
+
 .pt-120 {
   padding-top: 120px;
 }
 
-/* line 1, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/_btn.scss */
 .boxed-btn {
   background: #fff;
   color: #131313;
@@ -244,24 +228,24 @@ h3 {
   text-transform: capitalize;
 }
 
-/* line 16, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/_btn.scss */
+
 .boxed-btn:hover {
   background: #1F1F1F;
   color: #fff !important;
   border: 1px solid #1F1F1F;
 }
 
-/* line 21, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/_btn.scss */
+
 .boxed-btn:focus {
   outline: none;
 }
 
-/* line 24, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/_btn.scss */
+
 .boxed-btn.large-width {
   width: 220px;
 }
 
-/* line 28, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/_btn.scss */
+
 .boxed-btn2 {
   background: transparent;
   color: #fff;
@@ -276,7 +260,7 @@ h3 {
   text-transform: uppercase;
 }
 
-/* line 40, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/_btn.scss */
+
 .boxed-btn2:hover {
   background: #fff;
   color: #131313 !important;
@@ -293,13 +277,12 @@ h3 {
 }
 
 @media (max-width: 767px) {
-  /* line 2, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/_section_title.scss */
+
   .section_title h3 {
     font-size: 30px;
   }
 }
 
-/* line 12, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/_section_title.scss */
 .section_title h3::before {
   position: absolute;
   content: "";
@@ -319,7 +302,6 @@ h3 {
 
 
 
-/* line 267, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/_header.scss */
 #search_input_box .form-control {
   background: transparent;
   border: 0;
@@ -330,7 +312,7 @@ h3 {
   height: 50px;
 }
 
-/* line 277, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/_header.scss */
+
 #search_input_box .btn {
   width: 0;
   height: 0;
@@ -338,7 +320,7 @@ h3 {
   border: 0;
 }
 
-/* line 284, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/_header.scss */
+
 #search_input_box .ti-close {
   color: #fff;
   font-weight: 600;
@@ -348,7 +330,7 @@ h3 {
   font-size: 15px;
 }
 
-/* line 294, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/_header.scss */
+
 .search-inner {
   padding: 5px 5px;
 }
@@ -357,54 +339,48 @@ h3 {
 
 
 
-/* line 324, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/_header.scss */
 .social-link {
   position: relative;
   z-index: 9;
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 324, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/_header.scss */
+  
   .social-link {
     position: static;
   }
 }
 
 @media (max-width: 767px) {
-  /* line 324, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/_header.scss */
+  
   .social-link {
     position: static;
   }
 }
 
 
-
-
-/* line 42, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/_welcome_area.scss */
 .photography_bg_1 {
   background-image: url(../img/photography/1.jpg);
 }
 
-/* line 45, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/_welcome_area.scss */
 .photography_bg_2 {
   background-image: url(../img/photography/2.jpg);
 }
 
-/* line 49, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/_welcome_area.scss */
 .photographi_area .single_photography {
   height: 380px;
   position: relative;
 }
 
 @media (max-width: 767px) {
-  /* line 49, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/_welcome_area.scss */
+  
   .photographi_area .single_photography {
     height: 300px;
     margin-bottom: 30px;
   }
 }
 
-/* line 56, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/_welcome_area.scss */
+
 .photographi_area .single_photography .info {
   position: absolute;
   height: 100%;
@@ -413,7 +389,6 @@ h3 {
   z-index: 0;
 }
 
-/* line 62, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/_welcome_area.scss */
 .photographi_area .single_photography .info .info_inner {
   padding: 45px 45px 40px 45px;
   position: absolute;
@@ -424,13 +399,12 @@ h3 {
 }
 
 @media (max-width: 767px) {
-  /* line 62, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/_welcome_area.scss */
+  
   .photographi_area .single_photography .info .info_inner {
     padding: 20px;
   }
 }
 
-/* line 72, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/_welcome_area.scss */
 .photographi_area .single_photography .info .info_inner h3 {
   font-size: 34px;
   color: #fff;
@@ -441,7 +415,7 @@ h3 {
 }
 
 @media (max-width: 767px) {
-  /* line 72, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/_welcome_area.scss */
+  
   .photographi_area .single_photography .info .info_inner h3 {
     font-size: 20px;
     line-height: 24px;
@@ -450,7 +424,7 @@ h3 {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 72, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/_welcome_area.scss */
+ 
   .photographi_area .single_photography .info .info_inner h3 {
     font-size: 25px;
     line-height: 30px;
@@ -459,26 +433,26 @@ h3 {
 }
 
 @media (max-width: 767px) {
-  /* line 89, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/_welcome_area.scss */
+ 
   .photographi_area .single_photography .info .info_inner h3 br {
     display: none;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 89, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/_welcome_area.scss */
+  
   .photographi_area .single_photography .info .info_inner h3 br {
     display: none;
   }
 }
 
-/* line 97, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/_welcome_area.scss */
+
 .photographi_area .single_photography .info .info_inner h3 a {
   color: #fff;
   font-weight: 400;
 }
 
-/* line 103, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/_welcome_area.scss */
+
 .photographi_area .single_photography .info .info_inner .date_catagory span {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -486,7 +460,7 @@ h3 {
   font-size: 14px;
 }
 
-/* line 108, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/_welcome_area.scss */
+
 .photographi_area .single_photography .info .info_inner .date_catagory span.catagory {
   background: transparent;
   padding: 3px 20px;
@@ -499,30 +473,23 @@ h3 {
 }
 
 
-
-
-
-/* line 1, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/_recent_blog.scss */
 .most_recent_blog {
-  padding-bottom: 100px;
+  padding-bottom: 0px;
 }
 
-/* line 6, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/_recent_blog.scss */
 .most_recent_blog .btn_area {
   margin-top: 30px;
 }
 
-/* line 9, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/_recent_blog.scss */
 .most_recent_blog .single_blog {
   margin-bottom: 44px;
 }
 
-/* line 11, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/_recent_blog.scss */
 .most_recent_blog .single_blog .blog_thumb {
   overflow: hidden;
 }
 
-/* line 13, ../../Arafath/CL/CL August/204. Blog/204. Blog- HTML/scss/_recent_blog.scss */
+
 .most_recent_blog .single_blog .blog_thumb a {
   display: block;
 }
