@@ -9,7 +9,7 @@
 
 <body>
 
-    <!-- most_recent_blog_start -->
+    <!-- Первый блог с фотографиями и ссылками -->
     <div class="most_recent_blog">
         <div>
             
@@ -116,7 +116,7 @@
             
         </div>
     </div>
-    <!-- most_recent_blog_end -->
+    <!-- Конец первого  блока -->
 
 
     <div class="most_recent_blog">
@@ -146,7 +146,7 @@
     </div>
     
 
-    <!-- subscribe_newsletter_start -->
+    <!-- форма для отправки статьи -->
     <div class="subscribe_newsletter">
         <div class="container">
             <div class="black_bg">
