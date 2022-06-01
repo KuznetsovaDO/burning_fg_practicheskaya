@@ -30,7 +30,7 @@
                     <li><a href="/useful_articles">Useful articles</a></li>
                     <li><a href="/completed_orders">Completed orders</a></li>
                     <li><a href="/partner_companies">Partner companies</a></li>
-                    <li><a href="/reviews">Reviews</a></li>
+                    <li><a href="/main_reviews">Reviews</a></li>
                 </ul>
             </div>
         </div>

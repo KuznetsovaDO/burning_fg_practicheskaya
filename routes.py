@@ -43,8 +43,8 @@ def about():
         year=datetime.now().year
     )
 
-@route('/reviews')
-@view('reviews')
+@route('/main_reviews')
+@view('main_reviews')
 def reviews():
     
     return dict(
