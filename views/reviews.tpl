@@ -65,10 +65,8 @@
             </fieldset>
                 <!-- Кнопки очистки и отправки -->
         		<div class="buttons">
-                 
-                
-        		    
-        		    <input type="reset" value="Reset">
+                 	    
+        		    <input class = "button1" type="reset" value="Reset">
                     
                     <button class = "button1"  align = "center" type="submit" value="Estimate" name = "Button" >Estimate</button>
    

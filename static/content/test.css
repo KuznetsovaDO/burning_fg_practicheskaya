@@ -6,6 +6,22 @@ form {
     background-color: #f9f4f4;
     font-family: Montserrat;
 }
+
+.button1 {
+    border-radius: 12px;
+    border-color: red;
+    color: white;
+    padding: 15px 45px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5% auto;
+    cursor: pointer;
+    background-color: #ff3333;
+}
+
+
 header.page-header {
     align-content: center;
     z-index: 5;
@@ -64,17 +80,16 @@ select[multiple] {
 }
 
 input[type="submit"],
-input[type="reset"]
-{
-    display: inline-block;
-    margin: 0 5px;
-    padding: 6px 15px;
-    width: auto;
-    height: auto;
-    border: none;
-    border-radius: 5px;
-    background: #2c3e50;
-    color: #fff;
+input[type="reset"] {
+    border-radius: 15px;
+    border-color: red;
+    color: white;
+    padding: 20px 45px;
+    text-align: center;
+    text-decoration: none;    
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #ff3333;
 }
 
 input[disabled] {
