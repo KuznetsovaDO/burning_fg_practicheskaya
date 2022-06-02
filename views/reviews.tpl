@@ -13,11 +13,9 @@
 			    <div class="sectionesag">
 			    </div>
         </div>
-
+        <form action='/revv'>
         <main>
-        <form action="/echo" method="post" oninput="daysoutput.value=dayscount.value"> <!-- Ползунок -->
-            <form action="/go" method="GET" >
-
+                      
             <fieldset>
                 <!-- Вкладка с личной информации -->
                 <legend>PERSONAL INFORMATION</legend> <!-- Заголовок для блока -->
@@ -29,19 +27,19 @@
                 <!-- Ввод имени -->
                 <div class="half-width">
 			        <label for="1">NAME</label>
-			        <input id="1" type="text">
+			        <input name = "name" type="text" required>
 		        </div>
                 <!-- Ввод номера телефона -->
                 <div class="half-width">
 			        <label for="2">TELEPHONE NUMBER</label>
-			     <input id="2" type="search" placeholder="format +7(***)4567826">
+			     <input type="text" name = "number" placeholder="format +7**********" required>
 		         </div>
 		    </fieldset>
 		    <fieldset>
                 <legend>REVIEW</legend> <!-- Заголовок для блока -->
 			    <label>SERVICE</label>
                 <!-- Выбор услуги -->
-                <select multiple>
+                <select multiple name= "usl">
 			        <option selected>Men's tinder photoshoot</option>
 			        <option>Individual photoshoot</option>
 			        <option> Videography</option>
@@ -50,30 +48,36 @@
                  <!-- Ползунок для оценки -->
 			    <div class="half-width">
 			    <label>RATING</label>
-    			    0 <input type="range" min="0" max="10" step="1" name="dayscount" value="10"> 10
+    			   <input name = "num2" type="range" value="0" max="10" oninput="num.value = this.value">
+                   <output id="num"></output>                  
+                    
     			</div>
-    			<div class="half-width output-area">
-    			      <output name="daysoutput">10</output>
-    			</div>
+
 
                  <!-- Ввод текста отзыва -->
     			<label for="4">REVIEW TEXT</label>
-    			<textarea id="4" rows="5">..........</textarea>
+    			<textarea name = "text" rows="5" required>..........</textarea>
                 <!-- Ввод даты -->
                 <div class="half-width">
 			        <label for="6">DATE</label>
-			        <input id="6" type="text" placeholder="format dd-mm-yyyy">
+			        <input type="text" name = "date" placeholder="format dd-mm-yyyy" required>
                 </div>  
             </fieldset>
                 <!-- Кнопки очистки и отправки -->
         		<div class="buttons">
-        		    <input type="submit" value="Estimate">
-        		    <input type="reset" value="Reset">
-                    <input type="submit" value="Back">
+                 
+                
         		    
+        		    <input type="reset" value="Reset">
+                    
+                    <button class = "button1"  align = "center" type="submit" value="Estimate" name = "Button" >Estimate</button>
+   
+                    <button class = "button1" align = "center" type="submit" value="Back" name = "Button" >Back</button>
+        		   
     			</div>
-		    </form> 
+		   
         </main>
+        </form>
         <footer class="page-footer"></footer>
     </body>
 </html>

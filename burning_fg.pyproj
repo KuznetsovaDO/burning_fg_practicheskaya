@@ -36,6 +36,9 @@
     <Compile Include="modul_check_number.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="reviews.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="routes.py" />
     <Compile Include="test_var2.py">
       <SubType>Code</SubType>
