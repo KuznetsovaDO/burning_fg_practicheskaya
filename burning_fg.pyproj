@@ -40,6 +40,12 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="routes.py" />
+    <Compile Include="number_data_sofa.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="test_sofa.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="test_var2.py">
       <SubType>Code</SubType>
     </Compile>

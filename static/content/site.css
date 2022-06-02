@@ -40,3 +40,10 @@ input[type="checkbox"].input-validation-error {
 .validation-summary-valid {
     display: none;
 }
+
+.container_horizontal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: flex-start
+}

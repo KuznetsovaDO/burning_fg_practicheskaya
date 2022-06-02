@@ -16,7 +16,7 @@
         <form action='/revv'>
         <main>
                       
-            <fieldset>
+            <fieldset>                
                 <!-- Вкладка с личной информации -->
                 <legend>PERSONAL INFORMATION</legend> <!-- Заголовок для блока -->
                 <!-- Индекс отзыва -->

@@ -1,9 +1,3 @@
-Sofa|+79203211027|2022/22/22
-Sofa|+79203211027|..........|2022/22/22
-Sofa|+79203211027|..........||Individual photoshoot|2022/22/22
-Sofa|+79203211027|..........||Videography|None|2022/22/22
-Sofa|+79203211027|..........||Videography|None|2022/22/22
-Sofa|+79203211027|..........||Men's tinder photoshoot|None|2022/22/22
-Sofa|+79203211027|..........||Advertising/PR|None|2022/22/22
-Sofa|+79203211027|..........||Individual photoshoot|None|2022/22/22
-Sofa|+79203211027|..........||Men's tinder photoshoot|5|2022/22/22
+Anna|+79203211027|..........|Videography|5|22.05.2022
+Dima|+79203211027|..........|Men's tinder photoshoot|10|24.05.2022
+Kate|+79203211027|..........|Videography|8|22.05.2022

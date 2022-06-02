@@ -5,6 +5,7 @@ Routes and views for the bottle application.
 from bottle import route, view, request, response, template
 from datetime import datetime
 import reviews as rew
+import number_data_sofa
 
 @route('/')
 @route('/home')
@@ -85,7 +86,7 @@ def reviews():
 @route('/revv')
 @view('reviews')
 def revv():
-   
+  
         #считывание данных
         name_ = str(request.GET.get("name"))
         number_ = str(request.GET.get("number"))
@@ -93,11 +94,29 @@ def revv():
         date_ = str(request.GET.get("date"))
         usl_ = str(request.GET.get("usl"))
         num2_ = str(request.GET.get("num2"))
+
+        #Проверка на корректность вводимого номера
+        if (test_number_sofa.check_number(number_)==None):
+            return dict(
+            title='Rewiews',
+            message='Your contact page.',
+            year=datetime.now().year, 
+            error = "Incorrect number"
+        )
+
+         #Проверка на корректность вводимой даты
+        if (test_number_sofa.check_data(date_)==None):
+            return dict(
+            title='Rewiews',
+            message='Your contact page.',
+            year=datetime.now().year, 
+            error = "Incorrect data"
+        )
         
     
         #Записываем строку со статьей
         f = open('rev.txt', 'a')
-        f.write(name_+'|'+number_+'|'+text_+'|'+'|'+usl_+'|'+num2_+'|'+date_+'\n')
+        f.write(name_+'|'+number_+'|'+text_+'|'+usl_+'|'+num2_+'|'+date_+'\n')
         f.close()
         return dict(
             title='review',
