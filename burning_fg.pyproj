@@ -64,6 +64,7 @@
       <SubType>Code</SubType>
     </Content>
     <Content Include="static\content\test.css" />
+    <Content Include="static\content\test2.css" />
     <Content Include="static\fonts\glyphicons-halflings-regular.eot" />
     <Content Include="static\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="static\fonts\glyphicons-halflings-regular.ttf" />

@@ -2,7 +2,7 @@
 Routes and views for the bottle application.
 """
 
-from bottle import route, view
+from bottle import route, view, request, response, template
 from datetime import datetime
 
 @route('/')
@@ -45,6 +45,25 @@ def about():
 
 @route('/main_reviews')
 @view('main_reviews')
+def main_reviews():       
+    if request.GET.get("Button")=="GO":       
+        return template("reviews")
+    return dict(
+        title='Reviews',
+        message='Your application description page.',
+        year=datetime.now().year
+    )
+
+@route('/go')
+@view('main_reviews')
+def go():       
+    if request.GET.get("Button")=="GO":       
+        return template("reviews")
+    
+
+
+@route('/reviews')
+@view('reviews')
 def reviews():
     
     return dict(
@@ -52,6 +71,7 @@ def reviews():
         message='Your application description page.',
         year=datetime.now().year
     )
+
 
 @route('/completed_orders')
 @view('completed_orders')

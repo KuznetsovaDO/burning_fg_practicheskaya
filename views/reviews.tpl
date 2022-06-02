@@ -1,16 +1,23 @@
-% rebase('layout.tpl', title=title, year=year)
 <!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">
         <!-- Подключение CSS-стиля -->
-        <link rel="stylesheet" href="static/content/test.css">   
+        <link rel="stylesheet" href="static/content/test.css"> 
+        
     </head>
 <body>  
         <!-- Заголовок -->
-        <header  align = "center" class="page-header">FEEDBACK FORM</header> 
+        <div class="sestim-donials">
+        <header  align = "center">FEEDBACK FORM</header> 		    
+			    <div class="sectionesag">
+			    </div>
+        </div>
+
         <main>
-            <form action="/echo" method="post" oninput="daysoutput.value=dayscount.value">
+        <form action="/echo" method="post" oninput="daysoutput.value=dayscount.value"> <!-- Ползунок -->
+            <form action="/go" method="GET" >
+
             <fieldset>
                 <!-- Вкладка с личной информации -->
                 <legend>PERSONAL INFORMATION</legend> <!-- Заголовок для блока -->
@@ -48,6 +55,7 @@
     			<div class="half-width output-area">
     			      <output name="daysoutput">10</output>
     			</div>
+
                  <!-- Ввод текста отзыва -->
     			<label for="4">REVIEW TEXT</label>
     			<textarea id="4" rows="5">..........</textarea>
@@ -61,6 +69,8 @@
         		<div class="buttons">
         		    <input type="submit" value="Estimate">
         		    <input type="reset" value="Reset">
+                    <input type="submit" value="Back">
+        		    
     			</div>
 		    </form> 
         </main>

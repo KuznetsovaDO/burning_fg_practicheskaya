@@ -3,19 +3,18 @@ form {
     margin: 0 auto;
     padding: 20px;
     width: 450px;
-    border-radius: 10px;
-    background-color: #fff;
-    box-shadow: 0 0 10px #ccc;
+    background-color: #f9f4f4;
+    font-family: Montserrat;
 }
 header.page-header {
-    position: relative;
+    align-content: center;
     z-index: 5;
     min-height: 20px;
     padding: 20px;
     font-size: 30px;
-    color: black;
+    color: white;
     text-indent: 120px;
-  
+    font-family: Montserrat;
 }
 
 fieldset {
@@ -44,8 +43,7 @@ textarea {
     border: 1px solid #ccc;
     border-radius: 5px;
     vertical-align: middle;
-    font-family: "Roboto";
-
+    font-family: Montserrat;
 }
 
 input,
@@ -66,7 +64,8 @@ select[multiple] {
 }
 
 input[type="submit"],
-input[type="reset"] {
+input[type="reset"]
+{
     display: inline-block;
     margin: 0 5px;
     padding: 6px 15px;
@@ -125,14 +124,24 @@ input[disabled] {
 }
 
 body {
-    min-width: 553px;
-    background-color: #ffffff;
+    background-color: #adadad;
     background-attachment: fixed, scroll;
     background-repeat: repeat-y, repeat-y;
     background-position: left, right;
-    
 }
 
-main {
-    min-height: 400px;
+.sestim-donials {
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 100px;
+    font-family: Montserrat;
+    font-size: 30px;
+}
+
+.sectionesag {
+    width: 290px;
+    height: 3px;
+    background-color: red;
+    margin: 5px auto;
 }
